@@ -1,0 +1,36 @@
+.header {
+  height: 6rem;
+  width: 100%;
+  background: #2a4466;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 2.5rem;
+  padding: 6rem;
+  font-weight: 400;
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2.8rem;
+  color: #fff;
+  width: 75%;
+
+  &_input {
+    font-family: inherit;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: 2rem;
+    background: hsla(0, 0%, 100%, 0.15);
+    color: #fff;
+    border: none;
+  }
+}

@@ -18,19 +18,38 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 2.8rem;
+  margin-right: 3rem;
   color: #fff;
   width: 75%;
+  font-size: 4rem;
 
   &_input {
     font-family: inherit;
     width: 100%;
-    padding: 0.8rem;
+    padding: 16px 0px 8px 38px;
     border-radius: 0.5rem;
     outline: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     background: hsla(0, 0%, 100%, 0.15);
     color: #fff;
     border: none;
+    &::placeholder {
+      color: white;
+    }
+    &:focus {
+      background: #fff;
+      color: #2a4466;
+      opacity: 1;
+    }
+  }
+
+  &_button {
+    top: 2rem;
+    left: 23.5vw;
+    position: absolute;
+    width: 66rem;
+    height: 1rem !important;
+    font-size: 2rem !important;
+    color: #2a4466;
   }
 }

@@ -19,6 +19,10 @@ body {
   min-height: 100vh;
   width: 100%; }
 
+.container {
+  width: 100vw;
+  height: 100vh; }
+
 .header {
   height: 6rem;
   width: 100%;
@@ -38,16 +42,52 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 2.8rem;
+  margin-right: 3rem;
   color: #fff;
-  width: 75%; }
+  width: 75%;
+  font-size: 4rem; }
   .search_input {
     font-family: inherit;
     width: 100%;
-    padding: 0.8rem;
+    padding: 16px 0px 8px 38px;
     border-radius: 0.5rem;
     outline: none;
-    font-size: 2rem;
+    font-size: 1.6rem;
     background: rgba(255, 255, 255, 0.15);
     color: #fff;
     border: none; }
+    .search_input::placeholder {
+      color: white; }
+    .search_input:focus {
+      background: #fff;
+      color: #2a4466;
+      opacity: 1; }
+  .search_button {
+    top: 2rem;
+    left: 23.5vw;
+    position: absolute;
+    width: 66rem;
+    height: 1rem !important;
+    font-size: 2rem !important;
+    color: #2a4466; }
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: yellowgreen; }
+
+.sidenav {
+  background-color: aqua;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 24rem; }
+
+.main {
+  background: orangered;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  width: 100rem;
+  margin-bottom: 2rem; }

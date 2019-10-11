@@ -14,7 +14,7 @@ For stepup the project on your system use:
 
 <h4>Step 3</h4>
 
-`npm start`
+`npm run compile:sass`
 
 <h4>Step 4</h4>
 
